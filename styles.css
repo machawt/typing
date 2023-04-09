@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffe4c4;
+    font-family: 'Gill Sans';
+}
+
+.text, .input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1em;
+    height: calc(50vh - 5px);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.progress-bar{
+    height: 10px;
+    background-color: rgb(0, 255, 0);
+}
